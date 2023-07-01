@@ -8,7 +8,6 @@ var screen_size # Size of the game window.
 func _ready():
 	screen_size = get_viewport_rect().size
 	hide()
-	
 
 
 func _process(delta):
@@ -53,3 +52,4 @@ func start(pos):
 	position = pos
 	show()
 	$CollisionShape2D.disabled = false
+
