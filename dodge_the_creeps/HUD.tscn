@@ -3,11 +3,11 @@
 [ext_resource type="Script" path="res://HUD.gd" id="1_7a75r"]
 [ext_resource type="FontFile" uid="uid://b1v71b8s1tn8i" path="res://fonts/Xolonium-Regular.ttf" id="2_bf6hk"]
 
-[sub_resource type="InputEventAction" id="InputEventAction_qkh7v"]
+[sub_resource type="InputEventAction" id="InputEventAction_38wor"]
 action = &"start_game"
 
 [sub_resource type="Shortcut" id="Shortcut_7q6mb"]
-events = [SubResource("InputEventAction_qkh7v")]
+events = [SubResource("InputEventAction_38wor")]
 
 [node name="HUD" type="CanvasLayer"]
 script = ExtResource("1_7a75r")
