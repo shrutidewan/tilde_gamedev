@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dasscukwnpbnk"
-path="res://.godot/imported/Start (Idle).png-35984522ae3a8dfcaec434ac35bad21d.ctex"
+path="res://.godot/imported/Start (Idle).png-8f54699d5f3cc02ef0246ce0a4567b19.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Items/Checkpoints/Start/Start (Idle).png"
-dest_files=["res://.godot/imported/Start (Idle).png-35984522ae3a8dfcaec434ac35bad21d.ctex"]
+source_file="res://assets/Items/Checkpoints/Start/Start (Idle).png"
+dest_files=["res://.godot/imported/Start (Idle).png-8f54699d5f3cc02ef0246ce0a4567b19.ctex"]
 
 [params]
 

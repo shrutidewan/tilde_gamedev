@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqt8eahw66go0"
-path="res://.godot/imported/HitSide (22x22).png-250291eb0ed4b250dc5701fee72cdc88.ctex"
+path="res://.godot/imported/HitSide (22x22).png-f694b47bfa0421128bfe4d6ecc29506a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Traps/Blocks/HitSide (22x22).png"
-dest_files=["res://.godot/imported/HitSide (22x22).png-250291eb0ed4b250dc5701fee72cdc88.ctex"]
+source_file="res://assets/Traps/Blocks/HitSide (22x22).png"
+dest_files=["res://.godot/imported/HitSide (22x22).png-f694b47bfa0421128bfe4d6ecc29506a.ctex"]
 
 [params]
 

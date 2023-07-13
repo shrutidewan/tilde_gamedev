@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dm5jwxhly5ltj"
-path="res://.godot/imported/End (Idle).png-9b65254feafbc134edb06671a6fe5a03.ctex"
+path="res://.godot/imported/End (Idle).png-9302c703bcfe0a2b25507f723e8d3ac5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Items/Checkpoints/End/End (Idle).png"
-dest_files=["res://.godot/imported/End (Idle).png-9b65254feafbc134edb06671a6fe5a03.ctex"]
+source_file="res://assets/Items/Checkpoints/End/End (Idle).png"
+dest_files=["res://.godot/imported/End (Idle).png-9302c703bcfe0a2b25507f723e8d3ac5.ctex"]
 
 [params]
 
