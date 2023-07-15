@@ -4,7 +4,6 @@ extends CharacterBody2D
 @export var jump_strength = 600.0
 @export var gravity = 40.0
 
-
 var screen_size # Size of the game window.
 
 const SPEED = 300.0
@@ -32,7 +31,7 @@ func _process(delta):
 	position.y = clamp(position.y, 0, screen_size.y)
 	
 	if velocity.x != 0:
-		$AnimatedSprite2D.animation = "walk"
+		$AnimatedSprite2D.animation = "run"
 		$AnimatedSprite2D.flip_v = false
 		# See the note below about boolean assignment.
 		$AnimatedSprite2D.flip_h = velocity.x < 0
