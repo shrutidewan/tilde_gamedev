@@ -6,7 +6,7 @@ extends CharacterBody2D
 
 var screen_size # Size of the game window.
 
-const SPEED = 300.0
+const SPEED = 250.0
 const JUMP_VELOCITY = -400.0
 
 func _ready():
