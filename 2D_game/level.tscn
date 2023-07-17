@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://cq8sjccdvowu4"]
+[gd_scene load_steps=8 format=3 uid="uid://cq8sjccdvowu4"]
 
 [ext_resource type="Texture2D" uid="uid://c4xjwnnrwpyu0" path="res://assets/Background/Yellow.png" id="1_765rf"]
 [ext_resource type="Texture2D" uid="uid://cnobqiqiirtv1" path="res://assets/Terrain/Terrain (16x16).png" id="1_vdt7g"]
 [ext_resource type="PackedScene" uid="uid://xsldptu6rd47" path="res://character.tscn" id="2_fanev"]
+[ext_resource type="PackedScene" uid="uid://caalqmn0y0yxq" path="res://platform.tscn" id="4_nccch"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_j0cby"]
 tile_data = PackedInt32Array(0, 393216, 8, 65536, 393216, 9, 131072, 393216, 10, 1, 458752, 8, 65537, 458752, 9, 131073, 458752, 10, 2, 524288, 8, 65538, 524288, 9, 131074, 524288, 10)
@@ -479,3 +480,7 @@ layer_0/tile_data = PackedInt32Array(2621440, 393216, 10, 2621441, 458752, 10, 2
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_fanev")]
 position = Vector2(71, 537)
+
+[node name="MovingPlatform" parent="." instance=ExtResource("4_nccch")]
+position = Vector2(655, 244)
+offset = Vector2(80, 0)
