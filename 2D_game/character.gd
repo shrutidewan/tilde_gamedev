@@ -5,12 +5,16 @@ extends CharacterBody2D
 @export var gravity = 40.0
 
 var screen_size # Size of the game window.
+var initial_pos
 
 const SPEED = 250.0
 const JUMP_VELOCITY = -400.0
 
+
 func _ready():
 	screen_size = get_viewport_rect().size
+	initial_pos = get_node(".").position
+
 
 func _process(delta):
 	var velocity = Vector2.ZERO # The player's movement vector.
@@ -61,3 +65,10 @@ func _physics_process(_delta):
 		$AnimatedSprite2D.play("idle")
 
 	move_and_slide()
+
+func respawn():
+	get_node(".").set_deferred("position", initial_pos)
+
+func _on_spikes_body_entered(body):
+	if body == get_node("."):
+		respawn()

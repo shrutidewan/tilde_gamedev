@@ -484,3 +484,5 @@ position = Vector2(71, 537)
 [node name="MovingPlatform" parent="." instance=ExtResource("4_nccch")]
 position = Vector2(655, 244)
 offset = Vector2(80, 0)
+
+[node name="Area2D" type="Area2D" parent="."]
